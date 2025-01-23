@@ -1,6 +1,25 @@
 #root {
+  --primary-color: #7540e2;
+  --secondary-color: #beb0d1;
+  --tertiary-color: #3b3c44 ;
   max-width: 1280px;
   margin: 0 auto;
+  width: 60%;
   padding: 2rem;
   text-align: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+body {
+  background-color: #020007;
+}
+
+.app{
+  border:  var(--primary-color) solid 2px;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #000000;
 }
