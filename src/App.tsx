@@ -6,7 +6,6 @@ function App() {
     <>
     <div className="app">
       <Bio/>
-      <h1>eu não lembrava que react era tão fácil</h1>
     </div>
       
     </>
