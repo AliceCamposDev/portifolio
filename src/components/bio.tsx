@@ -26,10 +26,10 @@ export default function Bio() {
             </button>
         </div>
         <div className="bio-info">
+          <p>idioms: English and portuguese</p>
           <p>Pronouns: She/Her</p>
           <p>Location: Brazil</p>
           <p>Age: 21yo</p>
-          <p>Hobbies: TTRPG and programming</p>
         </div>
       </div>
     </header>
