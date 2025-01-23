@@ -15,13 +15,13 @@ export default function Bio() {
       </div>
       <div className="bio-downside">
         <div className="bio-links">
-            <button className="button-github">
+            <button className="button-github" onClick={() => window.open('https://github.com/alicecamposdev', '_blank')}>
               <p>Github</p>
             </button>
-            <button className="button-linkedin">
+            <button className="button-linkedin" onClick={() => window.open('https://linkedin.com/in/alicecamposdev', '_blank')}>
               <p>Linkedin</p>
             </button>
-            <button className="button-youtube">
+            <button className="button-youtube" onClick={() => window.open('https://www.youtube.com/@alicecamposdev', '_blank')}>
               <p>YouTube</p>
             </button>
         </div>
