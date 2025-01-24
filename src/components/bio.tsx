@@ -1,11 +1,12 @@
 import "./bio.css";
+import kuromi from "/kuromi.png";
 
 export default function Bio() {
   return (
     <header>
       <div className="bio-upside">
         <div className="bio-image">
-          <img className="kuromi" src="src\assets\kuromi.png" alt="witch kuromi" />
+          <img className="kuromi" src={kuromi} alt="witch kuromi" />
         </div>
 
         <div className="bio-text">
