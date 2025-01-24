@@ -5,7 +5,7 @@ export default function Bio() {
     <header>
       <div className="bio-upside">
         <div className="bio-image">
-          <img className="kuromi" src="src\assets\kuromi.png" alt="witch kuromi" />
+          <img className="kuromi" src="/kuromi.png" alt="witch kuromi" />
         </div>
 
         <div className="bio-text">
