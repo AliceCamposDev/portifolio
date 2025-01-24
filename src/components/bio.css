@@ -1,6 +1,5 @@
 .kuromi {
-  height: 80%;
-  width: 80%;
+  max-width: 80%;
   animation: up-down 3s infinite ease-in-out;
 }
 
@@ -65,3 +64,29 @@
     transform: translateY(0);
   }
 }
+
+@media (max-width: 750px) {
+    .bio-links{
+      width: 100%;
+      height: 250px;
+    }
+
+    .kuromi {
+      max-width: 40%;
+      animation: up-down 3s infinite ease-in-out;
+    }
+    .bio-upside {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .bio-downside {
+        flex-direction: column;
+        height: fit-content;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+  
